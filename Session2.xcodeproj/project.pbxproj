@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE80C9F32575D93D002C910A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE80C9F22575D93D002C910A /* Launch Screen.storyboard */; };
+		CE80C9F6257622C8002C910A /* ND Astroneer.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE80C9F5257622C8002C910A /* ND Astroneer.ttf */; };
 		CEDD71F8256F8723004061F1 /* Session2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD71F7256F8723004061F1 /* Session2App.swift */; };
 		CEDD71FA256F8723004061F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD71F9256F8723004061F1 /* ContentView.swift */; };
 		CEDD71FC256F8723004061F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDD71FB256F8723004061F1 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE80C9F22575D93D002C910A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		CE80C9F5257622C8002C910A /* ND Astroneer.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ND Astroneer.ttf"; sourceTree = "<group>"; };
 		CEDD71F4256F8723004061F1 /* Session2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Session2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDD71F7256F8723004061F1 /* Session2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session2App.swift; sourceTree = "<group>"; };
 		CEDD71F9256F8723004061F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE80C9F4257622AD002C910A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE80C9F5257622C8002C910A /* ND Astroneer.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		CEDD71EB256F8723004061F1 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +109,10 @@
 		CEDD71F6256F8723004061F1 /* Session2 */ = {
 			isa = PBXGroup;
 			children = (
+				CE80C9F4257622AD002C910A /* Fonts */,
 				CEDD71F7256F8723004061F1 /* Session2App.swift */,
 				CEDD71F9256F8723004061F1 /* ContentView.swift */,
+				CE80C9F22575D93D002C910A /* Launch Screen.storyboard */,
 				CEDD71FB256F8723004061F1 /* Assets.xcassets */,
 				CEDD7200256F8723004061F1 /* Info.plist */,
 				CEDD71FD256F8723004061F1 /* Preview Content */,
@@ -241,8 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE80C9F32575D93D002C910A /* Launch Screen.storyboard in Resources */,
 				CEDD71FF256F8723004061F1 /* Preview Assets.xcassets in Resources */,
 				CEDD71FC256F8723004061F1 /* Assets.xcassets in Resources */,
+				CE80C9F6257622C8002C910A /* ND Astroneer.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
